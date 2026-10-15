@@ -12,3 +12,9 @@ __pycache__/
 Thumbs.db
 
 .mypy_cache/venv/
+
+# Generated output files
+output/
+
+# Virtual environment
+venv/
