@@ -1,8 +1,8 @@
 processing:
-  remove_duplicates: true
+  remove_duplicates: false
 
   missing:
-    enabled: true
+    enabled: false
     axis: "rows"
 
   outliers:
@@ -10,4 +10,4 @@ processing:
     columns:
       - Score
     method: "iqr"
-    threshold: 1.5
+    threshold: 2.0
